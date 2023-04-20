@@ -1,0 +1,205 @@
+1)------------------
+cat > "Домашние животные"
+Собаки
+Кошки
+Хомяки
+
+cat > "Вьючные животные"
+Лошади
+Верблюды
+Ослы
+
+cat "Домашние животные" >> "Вьючные животные"
+
+cat "Вьючные животные"
+
+mv "Вьючные животные" "Друзья человека"
+
+2)--------------------
+mkdir dir1 && mv "Друзья человека" dir1/"Друзья человека"
+
+3)
+su
+cat >> /etc/apt/sources.list.d/mysql.list
+deb http://repo.mysql.com/apt/ubuntu/ jammy mysql-8.0
+
+
+sudo apt-get update
+
+sudo apt install mysql-common
+sudo apt install mysql-server
+systemctl status mysql
+
+4)-------------------
+sudo wget https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community_8.0.32-1ubuntu22.04_amd64.deb
+sudo dpkg -i mysql-workbench-community_8.0.32-1ubuntu22.04_amd64.deb
+find / -name mysql-workbench-community
+sudo dpkg --remove mysql-workbench-community
+
+5)
+ cat >> /etc/apt/sources.list.d/mysql.list
+  491  nano /etc/apt/sources.list.d/mysql.list
+  492  sudo apt-get update
+  493  nano /etc/apt/sources.list.d/mysql.list
+  494  sudo apt-get update
+  495  nano /etc/apt/sources.list.d/mysql.list
+  496  sudo apt-get build-dep mysql-server
+  497  cd ..
+  498  mkdir mysqlD
+  499  cd mysql
+  500  cd mysqlD
+  501  apt-get source -b mysql-server
+  502  ls
+  503  nano /etc/apt/sources.list.d/mysql.list
+  504  sudo apt-get update
+  505  sudo apt-get build-dep mysql-server
+  506  sudo systemctl status mysql
+  507  sudo apt search mysql-server
+  508  sudo systemctl stop mysqld
+  509  sudo apt purge mysql-server mysql-common mysql-server-core-* mysql-client-core-*
+  510  sudo apt remove mysql-server mysql-common mysql-server-core-* mysql-client-core-*
+  511  sudo apt purge mysql-server mysql-common mysql-server-core-* mysql-client-core-*
+  512  sudo rm -Rf /etc/mysql/
+  513  sudo rm -rf /var/log/mysql
+  514  sudo apt purge mysql-apt-config
+  515  sudo apt purge mysql-server mysql-common mysql-server-core-* mysql-client-core-*
+  516  mysql --version
+  517  sudo apt search mysql-server
+  518  sudo systemctl stop mysqld
+  519  sudo systemctl stop mysql
+  520  sudo systemctl stop mysqld
+  521  sudo systemctl
+  522  sudo systemctl grep | mysql
+  523  sudo systemctl | grep mysql
+  524  sudo systemctl | grep my
+  525  sudo systemctl | grep dail
+  526  sudo systemctl | grep my
+  527  sudo apt purge mysql-server mysql-common mysql-server-core-* mysql-client-core-*
+  528  'sudo apt autoremove'
+  529  sudo apt autoremove
+  530  sudo apt purge mysql-server mysql-common mysql-server-core-* mysql-client-core-*
+  531  sudo dpkg -i /var/cache/apt/archives/mysql-common_*.deb
+  532  sudo apt-get install --reinstall  mysql-common
+  533  sudo apt-get remove mysql-common
+  534  mysql --version
+  535  nano /etc/apt/sources.list.d/mysql.list
+  536  cat >> /etc/apt/sources.list.d/mysql.list
+  537  nano /etc/apt/sources.list.d/mysql.list
+  538  sudo apt-get update
+  539  sudo apt-get install mysql-server
+  540  systemctl status mysql
+  541  sudo apt-get clean
+  542  sudo apt-get purge mysql*
+  543  sudo apt-get update
+  544  sudo apt-get install -f
+  545  sudo apt autoremove
+  546  nano /etc/apt/sources.list.d/mysql.list
+  547  sudo apt-get install mysql-server-8.0
+  548  sudo apt-get install mysql-server-8.0.32
+  549  nano /etc/apt/sources.list.d/mysql.list
+  550  sudo apt-get clean
+  551  sudo apt-get purge mysql*
+  552  sudo apt-get update
+  553  sudo apt-get install -f
+  554  sudo apt-get update
+  555  nano /etc/apt/sources.list.d/mysql.list
+  556  sudo apt-get update
+  557  sudo apt-get install -f
+  558  sudo apt-get install mysql-8.0
+  559  sudo apt-get install mysql-8
+  560  nano /etc/apt/sources.list.d/mysql.list
+  561  sudo apt-get update
+  562  sudo apt-get install mysql-8.0
+  563  sudo apt-get install mysql-cluster-8.0
+  564  sudo apt-get install mysql-apt-config
+  565  sudo apt-get mysql-apt-config
+  566  sudo apt-get install mysql
+  567  sudo apt-get install  mysql-community-server
+  568  sudo apt update
+  569  sudo apt install -f
+  570  sudo dpkg --configure -a
+  571  sudo apt install -f
+  572  sudo apt full-upgrade
+  573  systemctl status mysql
+  574  nano /etc/apt/sources.list.d/mysql.list
+  575  sudo apt-get install mysql-server
+  576  apt-get update && apt-get install -t mysql-8.0 --yes mysql-server
+  577  sudo apt install mysql-community-client-plugins mysql-common
+  578  sudo apt install mysql-common
+  579  sudo apt install mysql-server
+  580  sudo apt-get install libssl1.1
+  581  echo "deb http://security.ubuntu.com/ubuntu focal-security main" | sudo tee /etc/apt/sources.list.d/focal-security.list
+  582  sudo apt-get update
+  583  sudo apt-get install libssl1.1
+  584  sudo rm /etc/apt/sources.list.d/focal-security.list
+  585  sudo apt install mysql-server
+  586  systemctl status mysql
+  587  lsb_release -a
+  588  sudo wget https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community_8.0.32-1ubuntu22.04_amd64.deb
+  589  sudo dpkg -i mysql-workbench-community_8.0.32-1ubuntu22.04_amd64.deb
+  590  sudo apt-get install libmysqlclient21
+  591  libpcrecpp0v5
+  592  sudo apt-get install libpcrecpp0v5
+  593  libmysqlclient21
+  594  sudo apt-get install libmysqlclient21
+  595  libpcrecpp0v5
+  596  sudo apt-get install libpcrecpp0v5
+  597  'apt --fix-broken install
+  598  apt --fix-broken install
+  599  ва
+  600  df
+  601  df -h
+  602  sudo docker
+  603  sudo docker rmi
+  604  sudo docker images
+  605  sudo docker ps -a
+  606  docker rmi $(docker images -aq) --force
+  607  docker system prune -af
+  608  docker rmi $(docker images -aq) --force
+  609  docker rm cb
+  610  docker ps
+  611  docker stop cb
+  612  docker ps
+  613  docker stop 0c
+  614  docker rmi $(docker images -aq) --force
+  615  docker system prune -af
+  616  df
+  617  ьщгте
+  618  mount
+  619  df
+  620  cd /var
+  621  ls
+  622  cd snap
+  623  ls
+  624  snap list
+  625  apt --fix-broken install
+  626  history
+  627  sudo dpkg -i mysql-workbench-community_8.0.32-1ubuntu22.04_amd64.deb
+  628  cd pwd
+  629  cd ..
+  630  ls
+  631  exit
+  632  ls
+  633  ls -la
+  634  cd ..
+  635  ls
+  636  cd mysqlD
+  637  ls
+  638  sudo dpkg -i mysql-workbench-community_8.0.32-1ubuntu22.04_amd64.deb
+  639  /usr/bin/mysql-workbench --help
+  640  find / -name workbench
+  641  sudo dpkg -S /usr/share/mysql-workbench/libraries/workbench
+  642  sudo dpkg --remove mysql-workbench-community:
+  643  sudo dpkg --remove mysql-workbench-community_8.0.32-1ubuntu22.04_amd64.deb
+  644  sudo dpkg --remove mysql-workbench-community
+  645  find / -name workbench
+  646  history
+
+
+
+
+
+
+
+
+
